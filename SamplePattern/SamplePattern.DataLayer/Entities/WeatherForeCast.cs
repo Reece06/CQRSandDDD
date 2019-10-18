@@ -1,9 +1,13 @@
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace SamplePattern
+namespace SamplePattern.DataLayer.Entities
 {
-    public class WeatherForecast
+    public class WeatherForeCast
     {
+        public int Key { get; set; }
+
         public DateTime Date { get; set; }
 
         public int TemperatureC { get; set; }
